@@ -30,7 +30,7 @@ function Home() {
             title={movie.title}
             year={movie.year}
             summary={movie.summary}
-            // genres={movie.genres}
+            genres={movie.genres}
           />
         ))}
       </div> 
